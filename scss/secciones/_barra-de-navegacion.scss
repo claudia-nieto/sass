@@ -1,0 +1,85 @@
+
+
+/* MENU */
+/*.et-header .et-logo .et-menu .et-menulink .et-footer*/
+
+.et-div-header{
+    width: 100vw;
+    background-color:#F3F2EE;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    .et-header{
+        border: rgb(0, 0, 0) 0px solid;
+        padding: 0px;
+        margin: 0px;
+        background-color:#F3F2EE;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: auto;
+
+        /* MENU LOGO */
+        .et-logo{
+                border: rgba(0, 0, 0, 0) 0px solid;
+                padding: 0px;
+                margin: 0px;
+                background-color:#F3F2EE;
+                text-align: center;
+
+            .et-logo-imagen{
+                border: rgba(0, 0, 0, 0) 0px solid;
+                padding: 0px;
+                margin: 0px;
+                background-color:#F3F2EE;
+                width: 7rem;
+                height: 7rem;
+            }
+        }
+
+        /* MENU LINK */
+        .et-menu{
+        border: black 0px solid;
+        padding: 0px;
+        margin: 0px;
+        background-color:#F6EFE9;
+        width: 70%;
+    
+
+            .et-menulink{
+            border: black 0px solid;
+            padding: 0px;
+            margin: 0px;
+            background-color:#F3F2EE;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        
+                .et-menulink-li{
+                    border: rgb(0, 0, 0) 0px solid;
+                    padding: 1px;
+                    margin: 5px 15px 5px 15px;
+                    background-color:#F3F2EE;
+                    list-style: none;
+                
+                    a{
+                        border: rgba(0, 0, 0, 0) 0px solid;
+                        padding: 0px;
+                        margin: 0px;
+                        background-color:#F3F2EE;
+                        text-align: center;
+                        font-family: 'Cinzel', serif;
+                        font-size: 12pt;
+                        font-weight: 600;
+                        text-decoration: none;
+                        color: #0b0b0b;
+                    }
+                }
+            }
+        }
+    }
+}

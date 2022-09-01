@@ -1,0 +1,15 @@
+
+/* RECETEO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fauna One', 'serif';
+    font-size: 14px;
+}
+
+/* IMPORT */
+@import 'https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Fauna+One&family=Lato:wght@100;300&family=Square+Peg&display=swap';
+@import './secciones/barra-de-navegacion';
+@import './secciones/footer';
+@import './secciones/index-bloques';
