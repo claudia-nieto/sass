@@ -1,2 +1,2 @@
-node_gitmodules/
-*.json
+node_modules/
+*.json 
