@@ -1,14 +1,8 @@
 /* FOOTER */
 .et-footer{
-    border: black 0px solid;
-    padding: 10px;
-    margin: 0px;
-    background-color: #ccd5c4;
-    text-align: center;
+    @extend %estilofooter;
 
     p{
-        font-size: 10px;
-        padding: px;
-        margin: 0px;
+      @include parrafofooter(10px, opx,0px)
     }
 }

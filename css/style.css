@@ -8,6 +8,13 @@
   font-size: 14px; }
 
 /* IMPORT */
+.et-footer {
+  border: black 0px solid;
+  padding: 10px;
+  margin: 0px;
+  background-color: #ccd5c4;
+  text-align: center; }
+
 /* MENU */
 /*.et-header .et-logo .et-menu .et-menulink .et-footer*/
 .et-div-header {
@@ -76,16 +83,10 @@
             color: #0b0b0b; }
 
 /* FOOTER */
-.et-footer {
-  border: black 0px solid;
-  padding: 10px;
-  margin: 0px;
-  background-color: #ccd5c4;
-  text-align: center; }
-  .et-footer p {
-    font-size: 10px;
-    padding: px;
-    margin: 0px; }
+.et-footer p {
+  font-size: 10px;
+  padding: opx;
+  margin: 0px; }
 
 /* BLOQUE 0 */
 /*.index-bloque0 .index-bloque1 .index-bloque2 .index-bloque3 .index-bloque4 .index-bloque5*/

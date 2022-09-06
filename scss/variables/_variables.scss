@@ -1,0 +1,13 @@
+%estilofooter{
+    border: black 0px solid;
+    padding: 10px;
+    margin: 0px;
+    background-color: #ccd5c4;
+    text-align: center;
+}
+
+@mixin parrafofooter ($font-size-footer,$padding-footer, $margin-footer)  {
+    font-size: $font-size-footer;
+    padding: $padding-footer;
+    margin:$margin-footer
+};
