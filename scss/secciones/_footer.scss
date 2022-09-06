@@ -3,6 +3,6 @@
     @extend %estilofooter;
 
     p{
-      @include parrafofooter(10px, opx,0px)
+      @include parrafofooter2 (10px, opx,0px)
     }
 }
