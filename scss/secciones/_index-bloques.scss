@@ -102,13 +102,14 @@
                     padding: 0px;
                     margin: 0px;
                     text-align: center;
-                    background-image:url(../image/1-index-articulo-1.jpg);
-                    background-size: 100%;
-                    background-repeat: no-repeat;
-                    background-position: center;
+                    overflow: hidden;
                     height: 22rem;
                     border-radius: 40px;
                 }
+
+                    .index-bloque2-article-div-imagen{
+                    height: 22rem;
+                    }
 
                 .index-bloque2-article-div2{
                     border: black 0px solid;
