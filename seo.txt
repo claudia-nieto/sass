@@ -1,0 +1,15 @@
+Implementaciones SEO en index
+
+Meta datos
+    <meta name="description" content="Directorio personal de objetivos">
+    <meta name="Keywords" content="directiro, viaje, bienestar, decoracion">
+
+
+Descripción de imagenes
+    <img class="et-logo-imagen" src="./image/0-et-logo-natural-simple-rosa-gris-2.svg" alt="logo">
+    <img src="https://images.unsplash.com/photo-1554245064-3ab88761ac5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="index-bloque2-article-div-imagen" alt="persona-yoga">
+    <img src="https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=564&q=80" class="index-bloque2-article-div-imagen" alt="mapa-de-viaje">
+
+Uso de etiquetas semanticas 
+    <h1, h2, h3, h4>
+    <header, nav, section, footer>
