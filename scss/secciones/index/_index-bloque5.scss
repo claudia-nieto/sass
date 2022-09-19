@@ -1,0 +1,31 @@
+/* BLOQUE 5 */
+
+.index-div-bloque5{
+    width: 100vw;
+    background-color:#F6EFE9;
+
+    .index-bloque5{
+        border: black 0px solid;
+        padding: 50px 0px 50px 0px;
+        margin: 0px;
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color:#F6EFE9;
+
+        h4{
+            border: black 0px solid;
+            padding: 10px 0px 30px 0px;
+            margin: 0px;
+            font-size: 20pt;
+        }
+                
+        form {
+            border: black 0px solid;
+            margin: 0px;
+            padding: 0px 20px 0px 20px;
+            align-items: flex-end;
+        }
+    }
+}

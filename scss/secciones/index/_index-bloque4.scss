@@ -1,0 +1,30 @@
+/* BLOQUE 4 */
+/*.index-bloque0 .index-bloque1 .index-bloque2 .index-bloque3 .index-bloque4 .index-bloque5*/
+
+.index-div-bloque4{
+    width: 100vw;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .index-bloque4{
+        border: black 0px solid;
+        padding: 20px 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .index-bloque4-div{
+            border: black 0px solid;
+            padding: 0px;
+            margin: 0px;
+
+            .index-bloque4-p{
+                border: black 0px solid;
+                padding: 10px;
+                margin: 0px;
+                text-align: center;
+            }
+        }
+    }
+}

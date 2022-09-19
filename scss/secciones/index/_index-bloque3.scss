@@ -1,0 +1,41 @@
+/* BLOQUE 3 */
+/*.index-bloque0 .index-bloque1 .index-bloque2 .index-bloque3 .index-bloque4 .index-bloque5*/
+
+.index-div-bloque3{
+    width: 100vw;
+
+    .index-bloque3{
+        border: black 0px solid;
+        padding: 50px;
+        margin: 0px;
+        background-image:url('../image/1-index-banner2-1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 1;
+
+        h2{
+            border: rgba(6, 6, 6, 0) 1px solid;
+            padding: 1px;
+            margin: 1px;
+            text-align: right;
+            font-family: 'Fauna One', serif;
+            font-size: 20pt;
+            color: #F3F2EE;
+            max-width: 1366px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .index-bloque3-p{
+            border: rgba(0, 0, 0, 0) 1px solid;
+            padding: 1px;
+            margin: 1px;
+            text-align: right;
+            color: #F3F2EE;
+            max-width: 1366px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

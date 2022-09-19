@@ -1,0 +1,104 @@
+
+/* BLOQUE 2 */
+/*.index-bloque0 .index-bloque1 .index-bloque2 .index-bloque3 .index-bloque4 .index-bloque5*/
+
+.index-div-bloque2{
+    width: 100vw;
+
+    .index-bloque2{
+        border: black 0px solid;
+        padding: 0px;
+        margin: 0px;
+        background-color:#ffffff;
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .index-bloque2-div{
+            border: black 0px solid;
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .index-bloque2-article{
+                border: black 0px solid;
+                padding: 0px;
+                margin: 15px 0px 50px 0px;
+                text-align: center;
+                width: 18rem;
+                height: 26rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .index-bloque2-article-div{
+                    border: black 1px solid;
+                    padding: 0px;
+                    margin: 0px;
+                    text-align: center;
+                    overflow: hidden;
+                    height: 22rem;
+                    border-radius: 40px;
+                }
+
+                    .index-bloque2-article-div-imagen{
+                    height: 22rem;
+                    }
+
+                .index-bloque2-article-div2{
+                    border: black 0px solid;
+                    padding: 0px;
+                    margin: 0px;
+                    text-align: center;
+
+                    h3{
+                        border: black 0px solid;
+                        padding: 0px;
+                        margin: 20px 0px 5px 0px;
+                        font-family:'Cinzel', serif;
+                        font-size: 12pt;
+                        font-weight: 900;
+                    }
+
+                    p{
+                        border: black 0px solid;
+                        padding: 0px;
+                        margin: 0px 0px 15px 0px;
+                        font-family: 'Fauna One', serif;
+                        font-size: 10pt;
+                    }
+
+                    button {
+                        border: rgb(0, 0, 0) 1px solid;
+                        padding: 10px 5px;
+                        margin: 0px;
+                        text-align: center;
+                        width: 100%;
+                        background-color: #BCB2B3;
+                        cursor: pointer;
+                        border-radius: 40px;
+
+                        a {
+                            border: rgb(0, 0, 0) 0px solid;
+                            padding: 10px 5px;
+                            margin: 0px;
+                            text-align: center;
+                            width: 100%;
+                            background-color: #BCB2B3;
+                            color: white;
+                            text-decoration: none;
+                            font-size: 14px;
+                            font-family:'Cinzel', serif;
+                            cursor: pointer;
+                            border-radius: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -13,12 +13,13 @@ font-family: 'Square Peg', cursive;
 /* COLOR
 color-menu: 'Cinzel', serif;
 color-fondo: 'Fauna One', serif;
-HEX CODES: 
-    #1c2915
-    #727a6b
-    #af9d89
-    #ccd5c4
-    #ede3d9
+HEX CODES:
+    #F3F2EE: HEADER CREMA
+    #1c2915 : VERDE OSCURO
+    #727a6b : VERDE OSCURO
+    #af9d89 : MARRON
+    #ccd5c4 : VERDE
+    #ede3d9 : CREMA
 */
 
 /* RECETEO */
@@ -31,7 +32,7 @@ HEX CODES:
 }
 
 /* MENU */
-/*.et-header .et-logo .et-menu .et-menulink .et-footer*/
+/* .et-div-header .et-header .et-logo .et-logo-imagen .et-menu .et-menulink .et-footer */
 
 .et-div-header{
     width: 100vw;
@@ -39,6 +40,7 @@ HEX CODES:
     position: sticky;
     top: 0;
     z-index: 1;
+    border-block-end:#DBD5C5 2px solid;
 }
 
 .et-header{
@@ -92,7 +94,7 @@ HEX CODES:
     flex-wrap: wrap;
 }
 
-.et-menulink li{
+.et-menulink-li{
     border: rgb(0, 0, 0) 0px solid;
     padding: 1px;
     margin: 5px 15px 5px 15px;
@@ -100,7 +102,7 @@ HEX CODES:
     list-style: none;
 }
 
-.et-menulink li a{
+.et-menulink-li a{
     border: rgba(0, 0, 0, 0) 0px solid;
     padding: 0px;
     margin: 0px;
@@ -111,6 +113,10 @@ HEX CODES:
     font-weight: 600;
     text-decoration: none;
     color: #0b0b0b;
+}
+
+.et-menulink-li a:hover{
+    background-color:#F3F2EE;
 }
 
 /* FOOTER */
@@ -128,7 +134,9 @@ HEX CODES:
     margin: 0px;
 }
 
-/* BLOQUE 0 */
+/* --------------------------------------------------------------------------------------- */
+
+/* INDEX BLOQUE 0 */
 /*.index-bloque0 .index-bloque1 .index-bloque2 .index-bloque3 .index-bloque4 .index-bloque5*/
 .index-bloque0{
     border: rgb(0, 0, 0) 0px solid;
@@ -146,7 +154,7 @@ HEX CODES:
 }
 
 .index-bloque0 h1{
-    border: #F3F2EE 1px solid;
+    border: #F3F2EE 2px solid;
     padding: 15px;
     margin: 0px;
     text-align: center;
@@ -156,7 +164,7 @@ HEX CODES:
     overflow: hidden;
 }
 
-/* BLOQUE 1 */
+/* INDEX BLOQUE 1 */
 /*.index-bloque0 .index-bloque1 .index-bloque2 .index-bloque3 .index-bloque4 .index-bloque5*/
 
 .index-div-bloque1{
@@ -190,7 +198,7 @@ HEX CODES:
     font-size: 12pt;
 }
 
-/* BLOQUE 2 */
+/* INDEX BLOQUE 2 */
 /*.index-bloque0 .index-bloque1 .index-bloque2 .index-bloque3 .index-bloque4 .index-bloque5*/
 
 .et-div-bloque2{
@@ -218,10 +226,12 @@ HEX CODES:
     align-items: center;
 }
 
+/* INDEX CARDS BLOQUE 2 */
+
 .index-bloque2-article{
     border: black 0px solid;
     padding: 0px;
-    margin: 15px 0px 50px 0px;
+    margin: 15px 0px 60px 0px;
     text-align: center;
     width: 18rem;
     height: 26rem;
@@ -230,18 +240,22 @@ HEX CODES:
     justify-content: space-between;
 }
 
+/* INDEX CARDS IMAGEN BLOQUE 2 */
+
 .index-bloque2-article-div{
-    border: black 1px solid;
+    border: black 0px solid;
     padding: 0px;
     margin: 0px;
     text-align: center;
-    background-image: url(../image/1-index-articulo-1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
     height: 22rem;
-    border-radius: 40px;
 }
+
+.index-bloque2-article-div-imagen{
+    border: black 1px solid;
+    border-radius: 10px;
+}
+
+/* INDEX CARDS TEXTO BLOQUE 2 */
 
 .index-bloque2-article-div2{
     border: black 0px solid;
@@ -278,13 +292,17 @@ HEX CODES:
     border-radius: 40px;
 }
 
+.index-bloque2-article-div2 button:hover {
+    background-color: #ccd5c4;
+
+}
+
 .index-bloque2-article-div2 button a {
     border: rgb(0, 0, 0) 0px solid;
     padding: 10px 5px;
     margin: 0px;
     text-align: center;
     width: 100%;
-    background-color: #BCB2B3;
     color: white;
     text-decoration: none;
     font-size: 14px;
@@ -294,7 +312,7 @@ HEX CODES:
 }
 
 
-/* BLOQUE 3 */
+/* INDEX BLOQUE 3 */
 /*.index-bloque0 .index-bloque1 .index-bloque2 .index-bloque3 .index-bloque4 .index-bloque5*/
 
 .index-div-bloque3{
@@ -330,13 +348,14 @@ HEX CODES:
     padding: 1px;
     margin: 1px;
     text-align: right;
+    font-size: 1.5rem;
     color: #F3F2EE;
     max-width: 1366px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* BLOQUE 4 */
+/* INDEX BLOQUE 4 */
 /*.index-bloque0 .index-bloque1 .index-bloque2 .index-bloque3 .index-bloque4 .index-bloque5*/
 
 .index-div-bloque4{
@@ -348,9 +367,9 @@ HEX CODES:
 
 .index-bloque4{
     border: black 0px solid;
-    padding: 0px;
+    padding: 20px 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -360,21 +379,15 @@ HEX CODES:
     margin: 0px;
 }
 
-.index-bloque4-img{
-    border: black 0px solid;
-    padding: 30px;
-    margin: 0px;
-    width: 100%;
-}
-
 .index-bloque4-p{
     border: black 0px solid;
-    padding: 20px;
+    padding: 10px;
     margin: 0px;
+    text-align: center;
 }
 
 
-/* BLOQUE 5 */
+/* INDEX BLOQUE 5 */
 
 .index-div-bloque5{
     width: 100vw;
@@ -388,32 +401,31 @@ HEX CODES:
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    height: 30rem;
     background-color:#F6EFE9;
 }
 
 .index-bloque5 h4{
     border: black 0px solid;
-    padding: 50px 0px 30px 0px;
+    padding: 10px 0px 30px 0px;
     margin: 0px;
-    font-size: 30pt;
+    font-size: 20pt;
 }
-.index-bloque5 p {
-    border: black 0px solid;
-    padding: 0px 0px 20px 0px;
-    margin: 0px;
-}
+
 .index-bloque5 form {
     border: black 0px solid;
-    padding: 0px;
     margin: 0px;
+    padding: 0px 20px 0px 20px;
+    align-items: flex-end;
 }
 
+
 /* --------------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------- */
 
-/* MEDIA QUERY*//* MOBILE LAST*/
-/*  Ancho 829: comportamiento 1 
+
+/* INDEX MEDIA QUERY*/
+/* MOBILE LAST
+    Ancho 829: comportamiento 1 
     Ancho 412: comportamiento 2 */
 
 @media (max-width: 820px){
@@ -471,20 +483,21 @@ HEX CODES:
         text-align: center;
     }
 }
+
 /* --------------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------- */
 
 
 /* SECCIONES INTERNAS */
 
-/* BLOQUE 0 */
+/* BLOQUE 0 BANNER*/
 /*.Bloque 0: Banner Principal | pagina1-bloque0*/
+
 .pagina1-bloque0{
     border: black 0px solid;
     padding: 0px;
     margin: 0px;
     text-align: center;
-    background-image: url(../image/2-pagina1-banner-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -493,9 +506,59 @@ HEX CODES:
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3432&q=80);
 }
 
-.pagina1-bloque0 h1{
+.pagina2-bloque0{
+    border: black 0px solid;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80);
+}
+
+.pagina3-bloque0{
+    border: black 0px solid;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80);
+}
+
+.pagina4-bloque0{
+    border: black 0px solid;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/1-index-banner-5.png);
+}
+
+
+.pagina1-bloque0-h1{
     border: rgba(255, 255, 255, 0.936) 1px solid;
     padding: 10px;
     margin: 10px;
@@ -507,8 +570,9 @@ HEX CODES:
 }
 
 
-/* BLOQUE 1 */
+/* BLOQUE 1 FRASE */
 /*.Bloque 1: Frase principal | pagina1-bloque1*/
+
 .pagina1-div-bloque1{
     width: 100vw;
 }
@@ -540,9 +604,11 @@ HEX CODES:
     font-size: 12pt;
 }
 
+/* --------------------------------------------------------------------------------------- */
 
-/* BLOQUE 2 */
+/* BLOQUE 2 VIDEO */
 /*.Bloque 2: Un video | pagina1-bloque2*/
+
 /*.BOOSTRAP*/
 .pagina1-bloque2{
     border: black 0px solid;
@@ -553,69 +619,11 @@ HEX CODES:
     margin-right: auto;
 }
 
-
-/* BLOQUE 3 */
-/*.Bloque Bloque 3: Tiendas de instagram | pagina1-bloque3*/
-.pagina1-bloque3{
-    border: black 0px solid;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-}
-
-.pagina1-bloque3-div{
-    border: black 1px solid;
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-}
-
-.pagina1-bloque3-article{
-    border: black 1px solid;
-    padding: 1px;
-    margin: 10px 50px 10px 50px;
-    text-align: center;
-    display: inline-block;
-    height: 200px;
-    width: 250px;
-}
-
-.pagina1-bloque3-article-div{
-    border: black 1px solid;
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    background-image: url(../image/1-index-articulo-1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 140px;
-}
-
-.pagina1-bloque3-article h3{
-    border: black 1px solid;
-    padding: 0px;
-    margin: 0px;
-    font-family:'Cinzel', serif;
-    font-size: 10pt;
-    font-weight: 900;
-}
-
-.pagina1-bloque3-article p{
-    border: black 1px solid;
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Fauna One', serif;
-    font-size: 8pt;
-}
-
-
 /* --------------------------------------------------------------------------------------- */
 
-/* BLOQUE 3 */
+/* BLOQUE 3 CARDS */
 /*.Bloque 3: Mi tienda | pagina2-bloque3*/
+
 /*.BOOSTRAP*/
 .div-pagina2-bloque3{
     background-color:#ede3d9;
@@ -635,12 +643,12 @@ HEX CODES:
     padding-top: 10px;
 }
 
-
 /* --------------------------------------------------------------------------------------- */
-/* BLOQUE 4 */
-/*.Bloque 4: Mi FAVORITOS | pagina2-bloque4*/
-/*.BOOSTRAP*/
 
+/* BLOQUE 4 CARRUSEL*/
+/*.Bloque 4: Mi tiendas | pagina2-bloque4*/
+
+/*.BOOSTRAP*/
 .pagina2-bloque4{
     border: black 0px solid;
     padding: 30px 20px 30px 20px;
@@ -661,10 +669,10 @@ HEX CODES:
     margin: 0.5rem;
 }
 
-
 /* --------------------------------------------------------------------------------------- */
-/* BLOQUE GALERIA */
-/* BLOQUE 02 */
+
+/* BLOQUE 5 GALERIA */
+/*.Bloque 5: Galeria | pagina2-div-grid-container */
 
 .pagina2-div-grid-container{
     width: 100vw;
@@ -678,83 +686,61 @@ HEX CODES:
 .pagina2-grid-container {  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 25vh 25vh 25vh 25vh;
+    grid-template-rows: 35vh 35vh 30vh;
     grid-template-areas:
       "imagen1 imagen2 imagen3 imagen3"
-      "imagen4 imagen5 imagen6 imagen6"
-      "imagen7 imagen5 imagen6 imagen6"
-      "imagen8 imagen8 imagen9 imagen10";
-    width: 100%;
+      "imagen4 imagen4 imagen5 imagen6"
+      "imagen7 imagen8 imagen8 imagen9"; 
     justify-content: center;
+    justify-items: stretch;
+    align-content: stretch;
+    align-items: stretch;  
+  }
+
+  img{
+    width: 100%;
   }
 
   .imagen1 { grid-area: imagen1; 
     background-color:  #ccd5c4;
     overflow: hidden;}
-  .imagen1 img{
-      width: 100%;}
-  
+
   .imagen2 { grid-area: imagen2; 
-    background-color:  #727a6b;
-    padding: 10%;
-    text-align: center;
-    color:rgb(249, 252, 252); }
+    background-color:  #ccd5c4;
+    overflow: hidden;}
 
   .imagen3 { grid-area: imagen3; 
     background-color:  #ccd5c4; 
     overflow: hidden;}
-  .imagen3 img{
-      width: 100%;}
-  
+
   .imagen4 { grid-area: imagen4; 
-    background-color:  #727a6b;
-    padding: 10%;
-    text-align: center;
-    color:rgb(249, 252, 252); }
+    background-color:  #ccd5c4; 
+    overflow: hidden;}
   
   .imagen5 { grid-area: imagen5; 
     background-color: #ede3d9;
     overflow: hidden;}
-  .imagen5 img{
-      width: 100%;
-    }
   
   .imagen6 { grid-area: imagen6; 
     background-color:  #727a6b;
     overflow: hidden;}
-  .imagen6 img{
-      width: 100%;}
   
   .imagen7 { grid-area: imagen7; 
     background-color:  #727a6b;
-    padding: 10%;
-    text-align: center;
-    color:rgb(249, 252, 252); }
+    overflow: hidden;}
   
   .imagen8 { grid-area: imagen8; 
     background-color:  #1c2915;
     overflow: hidden;}
-  .imagen8 img{
-      width: 100%;}
   
   .imagen9 { grid-area: imagen9; 
-    background-color: #ede3d9;
+    background-color: #ccd5c4;
     overflow: hidden;}
-  .imagen9 img{
-    width: 100%;
-  }
-  
-  .imagen10 { grid-area: imagen10;  
-    background-color:  #727a6b;
-    padding: 10%;
-    text-align: center;
-    color:rgb(249, 252, 252); }
-
-
 
 /* --------------------------------------------------------------------------------------- */
-/* BLOQUE FORMULARIO */
-/* BLOQUE 6 */
+
+/* BLOQUE 6 FORMULARIO */
+/* BLOQUE 6: Formulario */
 
 .pagina1-div-bloque6{
     width: 100vw;
@@ -815,9 +801,10 @@ HEX CODES:
 
 /* --------------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------- */
-/* MEDIA QUERY INTERNA*//* MOBILE LAST*/
 
-/*  Ancho 829: comportamiento 1 
+/* MEDIA QUERY INTERNA*//* MOBILE LAST*/
+/* MOBILE LAST
+    Ancho 829: comportamiento 1 
     Ancho 412: comportamiento 2 */
     
     @media (max-width: 412px){
@@ -829,83 +816,54 @@ HEX CODES:
         .pagina2-grid-container {  
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+            grid-template-rows: 15vh 15vh 15vh;
             grid-template-areas:
-              "imagen1 imagen2 imagen3 "
-              "imagen4 imagen4 imagen4 "
-              "imagen5 imagen7 imagen6 "
-              "imagen8 imagen8 imagen8 "
-              "imagen9 imagen10 imagen10";
-            width: 100%;
+                "imagen1 imagen2 imagen3"
+                "imagen4 imagen5 imagen6"
+                "imagen7 imagen8 imagen9"; 
             justify-content: center;
-        }
+            justify-items: stretch;
+            align-content: stretch;
+            align-items: stretch;  
+          }
+
 
         .imagen1 { grid-area: imagen1; 
             background-color:  #ccd5c4;
             overflow: hidden;}
-          .imagen1 img{
-              height: 100%;}
-          
+        
           .imagen2 { grid-area: imagen2; 
-            background-color:  #727a6b;
-            padding: 10%;
-            text-align: center;
-            color:rgb(249, 252, 252); }
+            background-color:  #ccd5c4;
+            overflow: hidden;}
         
           .imagen3 { grid-area: imagen3; 
             background-color:  #ccd5c4; 
             overflow: hidden;}
-          .imagen3 img{
-              height: 100%;}
-          
+        
           .imagen4 { grid-area: imagen4; 
-            background-color:  #727a6b;
-            padding: 10%;
-            text-align: center;
-            color:rgb(249, 252, 252); }
+            background-color:  #ccd5c4; 
+            overflow: hidden;}
           
           .imagen5 { grid-area: imagen5; 
             background-color: #ede3d9;
             overflow: hidden;}
-          .imagen5 img{
-              height: 100%;
-            }
           
           .imagen6 { grid-area: imagen6; 
             background-color:  #727a6b;
             overflow: hidden;}
-          .imagen6 img{
-              height: 100%;}
           
           .imagen7 { grid-area: imagen7; 
             background-color:  #727a6b;
-            padding: 10%;
-            text-align: center;
-            color:rgb(249, 252, 252); }
+            overflow: hidden;}
           
           .imagen8 { grid-area: imagen8; 
             background-color:  #1c2915;
             overflow: hidden;}
-          .imagen8 img{
-              width: 100%;}
           
           .imagen9 { grid-area: imagen9; 
-            background-color: #ede3d9;
+            background-color: #ccd5c4;
             overflow: hidden;}
-          .imagen9 img{
-            height: 100%;
-          }
-          
-          .imagen10 { grid-area: imagen10;  
-            background-color:  #727a6b;
-            padding: 10%;
-            text-align: center;
-            color:rgb(249, 252, 252); }
-
-          .pagina1-div-bloque7-form{
-            margin-left: 5vw;
-            margin-right: 5vw;
-            }
+        
     }
 
     /* --------------------------------------------------------------------------------------- */

@@ -1,0 +1,27 @@
+/* BLOQUE 0 */
+/*.index-bloque0 .index-bloque1 .index-bloque2 .index-bloque3 .index-bloque4 .index-bloque5*/
+.index-bloque0{
+    border: rgb(0, 0, 0) 0px solid;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../image/1-index-banner-5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        border: #F3F2EE 1px solid;
+        padding: 15px;
+        margin: 0px;
+        text-align: center;
+        font-family: 'Cinzel', 'serif';
+        font-size: 4rem;
+        color: #F3F2EE;
+        overflow: hidden;
+    }
+}

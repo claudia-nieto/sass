@@ -1,0 +1,36 @@
+/* BLOQUE 1 FRASE */
+/*.Bloque 1: Frase principal | pagina1-bloque1*/
+
+.pagina1-div-bloque1{
+    width: 100vw;
+
+
+    .pagina1-bloque1{
+        border: black 0px solid;
+        padding: 15px;
+        margin: 0px;
+        text-align: center;
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: auto;
+    
+
+        .pagina1-bloque1 h2{
+            border: rgba(6, 6, 6, 0) 0px solid;
+            padding: 1px;
+            margin: 1px;
+            text-align: center;
+            font-family: 'Square Peg', 'cursive';
+            font-size: 40pt;
+        
+
+            .pagina1-bloque1-p{
+                border: rgba(0, 0, 0, 0) 0px solid;
+                padding: 1px;
+                margin: 1px 50px 20px 50px;
+                text-align: center;
+                font-size: 12pt;
+            }
+        }
+    }
+}

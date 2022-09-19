@@ -1,0 +1,56 @@
+/* BLOQUE 6 FORMULARIO */
+/* BLOQUE 6: Formulario */
+
+.pagina1-div-bloque6{
+    width: 100vw;
+    background-color:#F6EFE9;
+
+
+    .pagina1-bloque6{
+        border: black 0px solid;
+        padding: 20px 0px 20px 0px;
+        margin: 0px;
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height: 8rem;
+        background-color:#F6EFE9;
+
+        h2{
+            border: black 0px solid;
+            padding: 10px 0px 10px 0px;
+            margin: 0px;
+            font-size: 20pt;
+        }
+
+        p {
+            border: black 0px solid;
+            padding: 0px 0px 20px 0px;
+            margin: 0px;
+        }
+    }
+}
+
+
+.pagina1-div-bloque7{
+    width: 100vw;
+    background-color:#F6EFE9;
+
+    /* BLOQUE BOOTSTRAP */
+    .container-sm{
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .pagina1-div-bloque7-form{
+            margin-left: 10vw;
+        
+            .btn-primary {
+                --bs-btn-bg: #af9d89;
+                --bs-btn-border-color: #af9d89;
+                --bs-btn-active-bg: #727a6b;
+                --bs-btn-active-border-color: #727a6b;
+            }
+        }
+    }
+}

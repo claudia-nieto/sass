@@ -1,0 +1,96 @@
+/* SECCIONES INTERNAS */
+
+/* BLOQUE 0 BANNER*/
+/*.Bloque 0: Banner Principal | pagina1-bloque0*/
+
+%pagina1-bloque0-h1{
+    border: rgba(255, 255, 255, 0.936) 1px solid;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Cinzel', 'serif';
+    font-size: 4rem;
+    color: #0b0b0b;
+    overflow: hidden;
+}
+
+.pagina1-bloque0{
+    border: black 0px solid;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3432&q=80);
+    
+    .pagina1-bloque0-h1{
+        @extend %pagina1-bloque0-h1;
+    }
+}
+
+.pagina2-bloque0{
+    border: black 0px solid;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80);
+     
+    .pagina1-bloque0-h1{
+        @extend %pagina1-bloque0-h1;
+    }
+}
+
+.pagina3-bloque0{
+    border: black 0px solid;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80);
+   
+    .pagina1-bloque0-h1{
+        @extend %pagina1-bloque0-h1;
+    }
+}
+
+.pagina4-bloque0{
+    border: black 0px solid;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/1-index-banner-5.png);
+  
+    .pagina1-bloque0-h1{
+        @extend %pagina1-bloque0-h1;
+    }
+}
+

@@ -1,0 +1,23 @@
+/* BLOQUE 4 CARRUSEL*/
+/*.Bloque 4: Mi tiendas | pagina2-bloque4*/
+
+/*.BOOSTRAP*/
+.pagina2-bloque4{
+    border: black 0px solid;
+    padding: 30px 20px 30px 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .cards-wrapper{
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+
+        .card{
+            margin: 0.5rem;
+        }
+    }
+}

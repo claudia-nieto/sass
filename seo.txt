@@ -13,3 +13,5 @@ Descripción de imagenes
 Uso de etiquetas semanticas 
     <h1, h2, h3, h4>
     <header, nav, section, footer>
+
+Archivo de sitemap.xml

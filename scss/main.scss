@@ -10,8 +10,21 @@
 
 /* IMPORT */
 @import 'https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Fauna+One&family=Lato:wght@100;300&family=Square+Peg&display=swap';
-@import './variables/variables';
 @import './secciones/barra-de-navegacion';
+@import './variables/footer-variables';
 @import './secciones/footer';
-@import './secciones/index-bloques';
-@import './secciones/index_queries';
+@import './secciones/index/index-bloque0';
+@import './secciones/index/index-bloque1';
+@import './secciones/index/index-bloque2';
+@import './secciones/index/index-bloque3';
+@import './secciones/index/index-bloque4';
+@import './secciones/index/index-bloque5';
+@import './secciones/index/index-queries';
+@import './secciones/pages/pages-bloque0';
+@import './secciones/pages/pages-bloque1';
+@import './secciones/pages/pages-bloque2';
+@import './secciones/pages/pages-bloque3';
+@import './secciones/pages/pages-bloque4';
+@import './secciones/pages/pages-bloque5';
+@import './secciones/pages/pages-bloque6';
+@import './secciones/pages/pages-queries';
